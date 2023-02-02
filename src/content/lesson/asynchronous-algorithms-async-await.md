@@ -105,7 +105,7 @@ CONSOLE OUTPUT:
 
 Explanation time!
 
-We've added a new function ```aThirdOne()``` (line 12), which console-logs: "this is crazy"; but we are not calling it directly, instead, we are passing the its name as a parameter to ```runFirst()``` (line 10). 
+We've added a new function ```aThirdOne()``` (line 12), which console-logs: "this is crazy"; but we are not calling it directly, instead, we are passing its name as a parameter to ```runFirst()``` (line 10). 
 ```runFirst(someFunction)``` it's now expecting a value (line 1) which will be called as if it were a function (line 3).
 **Note that the name is different because we pass the value, not the variable name.** 
 This produces a new print in the console: "this is crazy", before we call ```runSecond()``` (line 4).  
